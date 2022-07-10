@@ -60,7 +60,7 @@ while (begin)
 
             for (int i = 0; i < enterNumber; i++)
             {
-                array[i] = new Random().Next(enterNumber);
+                array[i] = new Random().Next(enterNumber+1);
                 Console.Write(array[i] + "; ");
             }
             Console.WriteLine();
